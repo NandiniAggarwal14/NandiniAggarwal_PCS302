@@ -43,7 +43,7 @@ printf("\nEnter the Kth position where element is to inserted: ");
 scanf("%d",&k);
 printf("\nEnter the element to be inserted at this place : ");
 scanf("%d",&num);
-for(i=n-1;i<k;i++)
+for(i=n-1;i>=k-1;i--)
 {
 *(p+i+1)=*(p+i);
 }
@@ -56,4 +56,3 @@ printf("%d", *(p+i));
 }
 return 0;
 }
-
