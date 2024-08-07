@@ -10,7 +10,7 @@ int main()
         scanf("%d", &a[i]);
     }
     d = (a[n-1] - a[0]) / n; 
-    for (int i = 0; i < n - 1; i++) 
+    for ( i = 0; i < n - 1; i++) 
     {
         if (a[i+1] != a[i] + d) 
         {
@@ -25,7 +25,7 @@ int main()
     else 
     {
         printf("\nThe new AP series is: ");
-        for (int i = 0; i < n; i++) 
+        for ( i = 0; i < n; i++) 
         {
             printf("%d ", a[i]);
             if ( term == a[i] + d) 
