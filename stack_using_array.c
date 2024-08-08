@@ -99,8 +99,8 @@ printf("%d",a[top]);
 }
 void display()
 {
-    if(isFull())
-    printf("\nStack overflow");
+    if(isEmpty())
+    printf("\nStack underflow");
     else
     {
     for(int i=top;i>=0;i--)
